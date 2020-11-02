@@ -23,7 +23,7 @@ body {
     text-decoration: none;
     color: black;
     white-space: nowrap;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .navBar a:hover {
@@ -37,7 +37,6 @@ body {
 /*LOCATIONS*/
 
 .matbutikkLogo {
-    display: inline;
 }
 
 .matbutikkLogo a {
