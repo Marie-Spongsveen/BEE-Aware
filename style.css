@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*HEADER*/
+.logo img {
+    width: 20%;
+}
+
+.navBar ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.navBar li {
+    padding: 5%;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    font-size: 2rem;
+}
+
+.navBar a:hover {
+    color: #E1CA71;
+}
+
+/*HOME*/
+
+/*COMPANY*/
+
+/*LOCATIONS*/
+
+.matbutikkLogo {
+    display: inline;
+}
+
+.matbutikkLogo a {
+    padding: 2%;
+}
+
+/*JOIN*/
