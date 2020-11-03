@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604257733006</updated>
       <workItem from="1604257735527" duration="1408000" />
-      <workItem from="1604321642913" duration="10998000" />
+      <workItem from="1604321642913" duration="16832000" />
     </task>
     <servers />
   </component>
@@ -71,5 +71,17 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="407" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1604257938932" />
+    <state x="421" y="81" key="FileChooserDialogImpl" timestamp="1604410313347">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604410313347" />
+    <state x="91" y="0" key="new project wizard" timestamp="1604410313824">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1604410313824" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1604338594097">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1604338594097" />
   </component>
 </project>
