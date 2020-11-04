@@ -47,10 +47,11 @@ body {
 
 /*LOCATIONS*/
 
-.bedriftslogo {
+.companyLogo {
+    background-color: white;
 }
 
-.bedriftslogo a {
+.companyLogo a {
     padding: 2%;
 }
 
