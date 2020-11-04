@@ -27,7 +27,18 @@ body {
 }
 
 .navBar a:hover {
+    border-bottom: solid #E1CA71;
+}
+
+.navBarClicked {
+}
+
+.navBarClicked a:visited {
     color: #E1CA71;
+}
+
+.navBarClicked a:hover {
+    color: black;
 }
 
 /*HOME*/
@@ -49,4 +60,14 @@ body {
     display: inline-block;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.linkInText {
+    text-decoration: none;
+    color: black;
+}
+
+.linkInText:hover {
+    color: #E1CA71;
+    text-decoration: underline;
 }
