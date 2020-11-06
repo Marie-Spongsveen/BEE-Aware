@@ -6,11 +6,11 @@ body {
 }
 
 p {
-   font: Arial, sans-serif;
+   font: Arial, sans-serif; font-size: 4vw;
 }
 
 h1 h2 {
-   font: Arial, sans-serif;
+   font: Arial, sans-serif; font-size: 10vw;
 }
 
 
@@ -70,29 +70,53 @@ footer {
 
 
 /*INDEX*/
-.grid-container {
+
+.frontPageLayout{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.frontPageLayoutReverse {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+  .frontPageRow {
+      flex: 50%;
+      max-width: 50%;
+  }
+
+  .frontPageRow img {
+      display: block;
+  }
+
+/*.grid-container {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: auto auto;
-  padding-bottom: 40px;
+  grid-template-columns: 1fr 1fr;
+  /*grid-template-rows: auto auto;
+  padding-bottom: auto;
 }
 
 .grid-item1{
    grid-column-start: 1;
    height: auto;
-   padding-right: 20px;
+   padding-right: auto;
+   padding-left: 0;
 }
 
 .grid-item2 {
+  text-align: center;
 }
 
 .grid-item3 {
   padding-left: 30px;
   padding-right: 50px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .grid-item4 {
-  padding-right: 20px;
+  /*padding-right: 20px;*/
 }
 
 /*.grid-bilde {
@@ -124,10 +148,7 @@ footer {
     flex-direction: row-reverse;
 }
 
-.companyRow {
-    flex: 50%;
-    max-width: 50%;
-}
+
 
 .companyRow img {
     display: block;
@@ -175,6 +196,17 @@ footer {
 
     .navBar a {
         font-size: 3vw;
+    }
+/* Front page */
+    .frontPageRow {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .frontPageBottomText {
+        flex: 100%;
+        max-width: 100%;
+        padding-bottom: 2%
+
     }
 
     /*COMPANY*/
