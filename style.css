@@ -58,14 +58,8 @@ header {
 
 /*Footer*/
 footer {
-  /*position: fixed;*/
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  background-color: #f0a202;
-  color: black;
-  text-align: center;
+    background-color: #f0a202;
+    height: 70px;
 }
 
 
@@ -140,12 +134,16 @@ footer {
 .companyLayout {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .companyLayoutReverse {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -166,7 +164,7 @@ footer {
 
 
 /*JOIN*/
-.textContainor {
+.joinTextContainor {
     display: inline-block;
     margin-left: 20%;
     margin-right: 20%;
@@ -178,7 +176,7 @@ footer {
 }
 
 .linkInText:hover {
-    color: #E1CA71;
+    color: #f0a202;
     text-decoration: underline;
 }
 
