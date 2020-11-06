@@ -2,30 +2,34 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #E3DBDB;
-  }
+    background-color: #F2E9E9;
+}
 
-
-p2{
+p {
    font: Arial, sans-serif;
 }
-p1 {
-   font: Arial, sans-serif;
- }
-h{
+
+h1 h2 {
    font: Arial, sans-serif;
 }
 
 
 /*HEADER*/
-.logo img {
-    width: 40%;
+header {
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+}
+
+.logo {
+    width: 20%;
 }
 
 .navBar ul {
     list-style: none;
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: right;
 }
 
 .navBar li {
@@ -36,25 +40,24 @@ h{
     text-decoration: none;
     color: black;
     white-space: nowrap;
+    font-size: 2vw;
 }
 
 .navBar a:hover {
-    border-bottom: solid #E1CA71;
-}
-
-.navBarClicked {
+    border-bottom: solid #f0a202;
 }
 
 .navBarClicked a:visited {
-    color: #E1CA71;
+    color: #f0a202;
 }
 
 .navBarClicked a:hover {
     color: black;
 }
 
+
 /*Footer*/
-.footer {
+footer {
   /*position: fixed;*/
   left: 0;
   bottom: 0;
@@ -65,35 +68,32 @@ h{
   text-align: center;
 }
 
-/*HOME*/
+
+/*INDEX*/
 .grid-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto auto;
   padding-bottom: 40px;
-
 }
 
 .grid-item1{
-  grid-column-start: 1;
-  height: auto;
-  padding-right: 20px;
-
-
+   grid-column-start: 1;
+   height: auto;
+   padding-right: 20px;
 }
+
 .grid-item2 {
-
 }
+
 .grid-item3 {
   padding-left: 30px;
   padding-right: 50px;
-
 }
+
 .grid-item4 {
   padding-right: 20px;
-
 }
-
 
 /*.grid-bilde {
   background-color: rgba(255, 255, 255, 0.8);
@@ -113,9 +113,28 @@ h{
 
 
 /*COMPANY*/
+.companyLayout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.companyLayoutReverse {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.companyRow {
+    flex: 50%;
+    max-width: 50%;
+}
+
+.companyRow img {
+    display: block;
+}
+
 
 /*LOCATIONS*/
-
 .companyLogo {
     background-color: white;
 }
@@ -124,8 +143,8 @@ h{
     padding: 2%;
 }
 
-/*JOIN*/
 
+/*JOIN*/
 .textContainor {
     display: inline-block;
     margin-left: 20%;
@@ -140,4 +159,27 @@ h{
 .linkInText:hover {
     color: #E1CA71;
     text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 800px) {
+    /*HEADER*/
+    header {
+        display: inline;
+        text-align: center;
+    }
+
+    .logo {
+        max-width: 20%;
+    }
+
+    .navBar a {
+        font-size: 3vw;
+    }
+
+    /*COMPANY*/
+    .companyRow {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
