@@ -110,12 +110,16 @@ footer {
 .companyLayout {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .companyLayoutReverse {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .companyRow {
