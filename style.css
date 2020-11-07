@@ -6,8 +6,12 @@ body {
 }
 
 p {
-   font: Arial, sans-serif; font-size: 4vw;
+   font: Arial, sans-serif; font-size: 1.9vw;
 }
+p2 {
+  font: Arial, sans-serif; font-size: 1.2vw;
+}
+
 
 h1 h2 {
    font: Arial, sans-serif; font-size: 10vw;
@@ -154,6 +158,11 @@ footer {
 
 
 /*LOCATIONS*/
+.kart{
+  display: flex;
+  flex: wrap
+}
+
 .companyLogo {
     background-color: white;
 }
