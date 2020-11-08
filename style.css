@@ -18,31 +18,27 @@ h1 {
 h2 {
     font: Arial, sans-serif;
     font-size: 1.5rem;
-
 }
 
-/*Ny header */
+
+/*HEADER*/
 .navbar{
   height: 12%;
   display: flex;
-  flex-wrap: nowrap;
   align-items: center;
-  background-color: F0A202;
   padding-right: 2%;
   padding-left: 2%;
-
 }
+
 .logo{
-  max-height: auto;
   max-width: 150px;
   cursor: pointer;
   padding-left: 62%;
 }
+
 .logo img{
-  max-height: auto;
   max-width: 150px;
   cursor: pointer;
-
 }
 
 nav{
@@ -56,72 +52,28 @@ nav ul li{
   display: inline-block;
   margin-left: 60px;
 }
+
 nav ul li a{
 text-decoration: none;
 color: black;
 font-size: 1.5rem;
 }
+
 nav a:hover {
     border-bottom: solid #f0a202;
     padding: 1.2vw 0;
 }
+
 .navBarClicked a:hover {
     padding: 1.2vw 0;
     color: orange;
 }
-.navBarClicked a:visited {
-    color: #f0a202;
-}
-
-
-/* gammel HEADER
-
-
-header {
-    display: inline-flex;
-    align-items: center;
-}
-
-.logo {
-    width: 20%;
-}
-
-.navBar {
-    padding: 0;
-}
-
-.navBar ul {
-    list-style: none;
-    display: inline-flex;
-    padding: 0;
-}
-
-.navBar li {
-    padding: 5%;
-}
-
-.navBar a {
-    text-decoration: none;
-    color: black;
-    white-space: nowrap;
-    font-size: 1.5rem;
-    padding: 1.2vw 0;
-}
-
-.navBar a:hover {
-    border-bottom: solid #f0a202;
-}
 
 .navBarClicked a:visited {
     color: #f0a202;
 }
 
-.navBarClicked a:hover {
-    padding: 1.2vw 0;
-    color: black;
-}
 
-*/
 /*FOOTER*/
 footer {
     background-color: #f0a202;
@@ -246,49 +198,24 @@ footer p {
 
 @media only screen and (max-width: 800px) {
     /*HEADER*/
-  /*  header {
-        display: inline;
-        text-align: center;
-    }
-
-    .logo {
-        width: 20%;
-    }
-
-    .navBar {
-        margin: 0;
-    }*/
-    .navbar{
-      height: 12%;
-      display: flex;
-      flex-wrap: nowrap;
-      align-items: center;
-      background-color: F0A202;
-      padding-right: 2%;
-      padding-left: 2%;
-
-    }
     .logo{
-      max-height: auto;
       max-width: 150px;
       cursor: pointer;
       padding-left: 2%;
     }
-    .logo img{
-      max-height: auto;
-      max-width: 150px;
-      cursor: pointer;
 
+    .logo img {
+        max-width: 150px;
+        cursor: pointer;
+    }
 
     /*INDEX*/
     .indexRow {
         flex: 100%;
         max-width: 100%;
     }
-    
 
-
-    .indexLayoutReverse {
+    #indexLayoutReverse {
         flex: 100%;
         max-width: 100%;
     }
