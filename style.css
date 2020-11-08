@@ -69,7 +69,11 @@ header {
 /*FOOTER*/
 footer {
     background-color: #f0a202;
-    height: 70px;
+    display: flex;
+}
+
+footer p {
+    flex: 1;
 }
 
 
