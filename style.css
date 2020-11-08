@@ -43,7 +43,6 @@ h2 {
 
 nav{
   flex: 1;
-  flex-wrap: nowrap;
   text-align: center;
 }
 
@@ -207,6 +206,10 @@ footer p {
     .logo img {
         max-width: 150px;
         cursor: pointer;
+    }
+
+    nav ul li {
+        margin-left: -20px;
     }
 
     /*INDEX*/
