@@ -99,50 +99,6 @@ footer {
 .missionstatment {
     font-size: 2rem;
 }
-/*.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /*grid-template-rows: auto auto;
-  padding-bottom: auto;
-}
-
-.grid-item1{
-   grid-column-start: 1;
-   height: auto;
-   padding-right: auto;
-   padding-left: 0;
-}
-
-.grid-item2 {
-  text-align: center;
-}
-
-.grid-item3 {
-  padding-left: 30px;
-  padding-right: 50px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.grid-item4 {
-  padding-right: 20px;
-}
-
-/*.grid-bilde {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-.grid-tekst {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  grid-column-start: 2;
-} */
 
 
 /*COMPANY*/
@@ -171,9 +127,16 @@ footer {
 
 /*LOCATIONS*/
 .map {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    position: relative;
+    margin: 10%;
+    padding-bottom: 50%;
+}
+
+.map iframe {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .companyLogo {
@@ -225,7 +188,6 @@ footer {
     }
 
     .logo {
-        margin: 0;
         width: 20%;
     }
 
