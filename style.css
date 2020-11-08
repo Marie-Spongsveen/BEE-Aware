@@ -246,7 +246,7 @@ footer p {
 
 @media only screen and (max-width: 800px) {
     /*HEADER*/
-    header {
+  /*  header {
         display: inline;
         text-align: center;
     }
@@ -257,7 +257,27 @@ footer p {
 
     .navBar {
         margin: 0;
+    }*/
+    .navbar{
+      height: 12%;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      background-color: F0A202;
+      padding-right: 2%;
+      padding-left: 2%;
+
     }
+    .logo{
+      max-height: auto;
+      max-width: 150px;
+      cursor: pointer;
+      padding-left: 2%;
+    }
+    .logo img{
+      max-height: auto;
+      max-width: 150px;
+      cursor: pointer;
 
 
     /*INDEX*/
@@ -265,6 +285,7 @@ footer p {
         flex: 100%;
         max-width: 100%;
     }
+    
 
 
     .indexLayoutReverse {
