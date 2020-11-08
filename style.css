@@ -6,7 +6,7 @@ body {
 }
 
 p {
-    font: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
 }
 
@@ -17,10 +17,45 @@ h1 {
 
 h2 {
     font: Arial, sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
+
 }
 
+/*Ny header */
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+  background-color: F0A202;
+  padding-right: 2%;
+  padding-left: 2%;
+
+}
+.logo{
+  width: 5px;
+  cursor: pointer;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+font-size: 13px;
+}
+
+
 /*HEADER*/
+
+
 header {
     display: inline-flex;
     align-items: center;
@@ -210,7 +245,7 @@ footer {
     .indexBottomText {
         flex: 100%;
         max-width: 100%;
-        padding-bottom: 2%
+        padding-bottom: 2%;
     }
 
 
