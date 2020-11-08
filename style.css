@@ -139,12 +139,12 @@ footer {
     height: 100%;
 }
 
-.companyLogo {
+.logoList {
     background-color: white;
 }
 
-.companyLogo a {
-    padding: 2%;
+.logoList a img {
+    padding: 0 2%;
 }
 
 
