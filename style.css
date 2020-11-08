@@ -25,6 +25,7 @@ h2 {
 .navbar{
   height: 12%;
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   background-color: F0A202;
   padding-right: 2%;
@@ -35,11 +36,18 @@ h2 {
   max-height: auto;
   max-width: 150px;
   cursor: pointer;
-  padding-left: 8%;
+  padding-left: 62%;
+}
+.logo img{
+  max-height: auto;
+  max-width: 150px;
+  cursor: pointer;
+
 }
 
 nav{
   flex: 1;
+  flex-wrap: nowrap;
   text-align: center;
 }
 
@@ -117,7 +125,7 @@ header {
 /*FOOTER*/
 footer {
     background-color: #f0a202;
-    height: 70px;
+    height: 30%;
 }
 
 
