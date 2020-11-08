@@ -74,14 +74,14 @@ footer {
 
 
 /*INDEX*/
-.indexLayout{
+#indexLayout{
     display: flex;
     flex-wrap: wrap;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.indexLayoutReverse {
+#indexLayoutReverse {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
@@ -124,15 +124,19 @@ footer {
     display: block;
 }
 
+#funFact {
+    list-style: none;
+}
+
 
 /*LOCATIONS*/
-.map {
+#map {
     position: relative;
     margin: 10%;
     padding-bottom: 50%;
 }
 
-.map iframe {
+#map iframe {
     left: 0;
     position: absolute;
     width: 100%;
@@ -149,7 +153,7 @@ footer {
 
 
 /*JOIN*/
-.joinMain {
+#joinMain {
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -160,7 +164,7 @@ footer {
     margin-right: 20%;
 }
 
-.joinImg{
+#joinImg{
     display: flex;
     flex-wrap: wrap;
 }
