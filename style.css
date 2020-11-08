@@ -32,13 +32,15 @@ h2 {
 
 }
 .logo{
-  width: 5px;
+  max-height: auto;
+  max-width: 150px;
   cursor: pointer;
+  padding-left: 8%;
 }
 
 nav{
   flex: 1;
-  text-align: right;
+  text-align: center;
 }
 
 nav ul li{
@@ -49,11 +51,15 @@ nav ul li{
 nav ul li a{
 text-decoration: none;
 color: black;
-font-size: 13px;
+font-size: 1.5rem;
+}
+nav a:hover {
+    border-bottom: solid #f0a202;
 }
 
 
-/*HEADER*/
+
+/* gammel HEADER*/
 
 
 header {
