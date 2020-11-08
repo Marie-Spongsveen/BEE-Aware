@@ -55,11 +55,18 @@ font-size: 1.5rem;
 }
 nav a:hover {
     border-bottom: solid #f0a202;
+    padding: 1.2vw 0;
+}
+.navBarClicked a:hover {
+    padding: 1.2vw 0;
+    color: orange;
+}
+.navBarClicked a:visited {
+    color: #f0a202;
 }
 
 
-
-/* gammel HEADER*/
+/* gammel HEADER
 
 
 header {
@@ -106,7 +113,7 @@ header {
     color: black;
 }
 
-
+*/
 /*FOOTER*/
 footer {
     background-color: #f0a202;
