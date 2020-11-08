@@ -23,39 +23,39 @@ h2 {
 
 /*HEADER*/
 .navbar{
-  height: 12%;
-  display: flex;
-  align-items: center;
-  padding-right: 2%;
-  padding-left: 2%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 
 .logo{
-  max-width: 150px;
-  cursor: pointer;
-  padding-left: 62%;
+    max-width: 150px;
+    cursor: pointer;
+    padding-left: 62%;
 }
 
 .logo img{
-  max-width: 150px;
-  cursor: pointer;
+    max-width: 150px;
+    cursor: pointer;
 }
 
 nav{
-  flex: 1;
-  text-align: center;
+    flex: 1;
+    text-align: center;
 }
 
 nav ul li{
-  list-style: none;
-  display: inline-block;
-  margin-left: 60px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
 }
 
 nav ul li a{
-text-decoration: none;
-color: black;
-font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
 }
 
 nav a:hover {
@@ -198,9 +198,9 @@ footer p {
 @media only screen and (max-width: 800px) {
     /*HEADER*/
     .logo{
-      max-width: 150px;
-      cursor: pointer;
-      padding-left: 2%;
+        max-width: 150px;
+        cursor: pointer;
+        padding-left: 2%;
     }
 
     .logo img {
@@ -211,6 +211,7 @@ footer p {
     nav ul li {
         margin-left: -20px;
     }
+
 
     /*INDEX*/
     .indexRow {
