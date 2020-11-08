@@ -206,6 +206,7 @@ footer {
         max-width: 100%;
     }
 
+
     .indexLayoutReverse {
         flex: 100%;
         max-width: 100%;
@@ -228,5 +229,9 @@ footer {
     /*JOIN*/
     .joinImgRow {
         flex: 100%;
+    }
+
+    .joinTextContainor {
+        margin: 0;
     }
 }
