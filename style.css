@@ -83,7 +83,6 @@ footer {
 
 footer p {
     flex: 1;
-    font-size: 0.8rem;
 }
 
 
@@ -215,6 +214,12 @@ footer p {
         cursor: pointer;
     }
 
+
+    /*FOOTER*/
+    footer p {
+        font-size: 0.8rem;
+    }
+    
 
     /*INDEX*/
     .indexRow {
