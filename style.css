@@ -78,6 +78,7 @@ nav a:hover {
 footer {
     background-color: #f0a202;
     display: flex;
+    max-width: 100%;
 }
 
 footer p {
@@ -195,13 +196,6 @@ footer p {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 1000px) {
-    /*HEADER*/
-    nav a {
-        padding: 0;
-    }
-
-}
 
 @media only screen and (max-width: 800px) {
     /*HEADER*/
@@ -220,6 +214,10 @@ footer p {
         cursor: pointer;
     }
 
+    /*FOOTER*/
+    footer p {
+        font-size: 1rem;
+    }
 
     /*INDEX*/
     .indexRow {
