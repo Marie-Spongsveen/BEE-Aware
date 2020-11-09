@@ -177,7 +177,12 @@ footer p {
     display: inline-block;
 }
 
-.noe {
+.logoList img:hover {
+    position: relative;
+    bottom: 5px;
+}
+
+.logoListLogo {
     width: 20%;
     padding: 1%;
 }
