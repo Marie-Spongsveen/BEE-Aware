@@ -49,13 +49,14 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 10%;
 }
 
 nav a{
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
+    white-space: nowrap;
 }
 
 nav a:hover {
@@ -194,6 +195,13 @@ footer p {
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 1000px) {
+    /*HEADER*/
+    nav a {
+        padding: 0;
+    }
+
+}
 
 @media only screen and (max-width: 800px) {
     /*HEADER*/
@@ -210,18 +218,6 @@ footer p {
     .logo img {
         max-width: 150px;
         cursor: pointer;
-    }
-
-    nav ul li {
-        margin-left: -20px;
-    }
-
-    nav a {
-        padding: 20px;
-    }
-
-    .navbar {
-        display: inline-block;
     }
 
 
