@@ -52,7 +52,7 @@ nav ul li{
     margin-left: 60px;
 }
 
-nav ul li a{
+nav a{
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
@@ -65,7 +65,7 @@ nav a:hover {
 
 .navBarClicked a:hover {
     padding: 1.2vw 0;
-    color: orange;
+    color: #f0a202;
 }
 
 .navBarClicked a:visited {
@@ -200,7 +200,7 @@ footer p {
     header {
         height: 20%;
     }
-    
+
     .logo{
         max-width: 150px;
         cursor: pointer;
@@ -214,6 +214,14 @@ footer p {
 
     nav ul li {
         margin-left: -20px;
+    }
+
+    nav a {
+        padding: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
     }
 
 
@@ -249,5 +257,12 @@ footer p {
 
     .joinTextContainor {
         margin: auto -10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /*HEADER*/
+    nav a {
+        font-size: 1.2rem;
     }
 }
